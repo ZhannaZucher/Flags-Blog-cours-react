@@ -6,13 +6,19 @@ const Navigation = () => {
       <ul>
         {/* ajout de la classe nav-active au lien actif */}
         <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-          <li>Accueil</li>
+          <li>accueil</li>
         </NavLink>
         <NavLink
           to="/about"
           className={(nav) => (nav.isActive ? "nav-active" : "")}
         >
-          <li>A Propos</li>
+          <li>à propos</li>
+        </NavLink>
+        <NavLink
+          to="/blog"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <li>blog</li>
         </NavLink>
       </ul>
     </div>
