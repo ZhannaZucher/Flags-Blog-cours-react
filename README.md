@@ -1,31 +1,23 @@
-Reprendre un projet React : `npm i`
+# React Course App : Countries infos cards & Blog page
 
-Installer JSON-SERVER : `npm i -g json-server`
-Faire tourner le back : `json-server --w src/assets/db.json --port 3004` ou ajouter dans package.json "scripts" :"server": "json-server --w src/assets/db.json --port 3004" et ensuite `npm run server`
+![REACT](https://img.shields.io/badge/React-303540?style=for-the-badge&logo=react&logoColor=61DAFB)
+![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-303540?style=for-the-badge&logo=SASS)
+![Axios](https://img.shields.io/badge/Axios-303540?style=for-the-badge&logo=axios)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+![Home](./public/CaptureHomePage.png)
 
-### `npm start`
+![Blog](./public/CaptureBlogPage.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Launch the project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install the dependencies with <code>yarn</code> or <code>npm install</code> command in the terminal.
 
-### `npm test`
+Install JSON-SERVER : `npm i json-server`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launch server `npm run server`
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then run the app in dev mode with <code>npm run start</code> command in the terminal which opens the default port [http://localhost:3000](http://localhost:3000).
