@@ -14,9 +14,9 @@
 
 ## Launch the project
 
-Install the dependencies with <code>yarn</code> or <code>npm install</code> command in the terminal.
+Install the dependencies with <code>npm install</code> command in the terminal.
 
-Install JSON-SERVER : `npm i json-server`
+Install JSON-SERVER : `npm install json-server`
 
 Launch server `npm run server`
 
